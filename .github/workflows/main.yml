@@ -19,5 +19,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           requiredGenesisModification: true
-          genTxDirectory: 1/2
+          genTxDirectory: 1
           genesisFilePath: genesis.json
